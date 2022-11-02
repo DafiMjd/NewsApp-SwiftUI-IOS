@@ -11,6 +11,8 @@
 		506FA3412912056B0020650D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FA3402912056B0020650D /* ContentView.swift */; };
 		506FA3432912056B0020650D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506FA3422912056B0020650D /* Assets.xcassets */; };
 		506FA3462912056B0020650D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506FA3452912056B0020650D /* Preview Assets.xcassets */; };
+		506FA34D29120B230020650D /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FA34C29120B230020650D /* ArticleModel.swift */; };
+		506FA35129120FA20020650D /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FA35029120FA20020650D /* ArticleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		506FA3402912056B0020650D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		506FA3422912056B0020650D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		506FA3452912056B0020650D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		506FA34C29120B230020650D /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		506FA35029120FA20020650D /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				506FA3402912056B0020650D /* ContentView.swift */,
 				506FA3422912056B0020650D /* Assets.xcassets */,
 				506FA3442912056B0020650D /* Preview Content */,
+				506FA34C29120B230020650D /* ArticleModel.swift */,
+				506FA35029120FA20020650D /* ArticleRow.swift */,
 			);
 			path = "NewsApp-SwiftUI";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				506FA3412912056B0020650D /* ContentView.swift in Sources */,
+				506FA34D29120B230020650D /* ArticleModel.swift in Sources */,
 				506FA33F2912056B0020650D /* NewsApp_SwiftUIApp.swift in Sources */,
+				506FA35129120FA20020650D /* ArticleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
